@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Todo.belongsTo(models.User)
     }
   };
   Todo.init({
@@ -24,37 +25,4 @@ module.exports = (sequelize, DataTypes) => {
     // Todo.belongsTo(models.User)
   }
   return Todo;
-};
-
-// 'use strict'
-// module.exports = {
-//   up: (queryInterface, Sequelize) => {
-//     return queryInterface.createTable('Todos', {
-//       id: {
-//         allowNull: false,
-//         autoIncrement: true,
-//         primaryKey: true,
-//         type: Sequelize.INTEGER
-//       },
-//       name: {
-//         allowNull: false,
-//         type: Sequelize.STRING
-//       },
-//       isDone: {
-//         type: Sequelize.BOOLEAN,
-//         defaultValue: false
-//       },
-//       createdAt: {
-//         allowNull: false,
-//         type: Sequelize.DATE
-//       },
-//       updatedAt: {
-//         allowNull: false,
-//         type: Sequelize.DATE
-//       }
-//     })
-//   },
-//   down: (queryInterface, Sequelize) => {
-//     return queryInterface.dropTable('Todos')
-//   }
-// }
+}
