@@ -3,11 +3,11 @@ A Todo list app built with Node.js, Express and MySQL
 
 ![image](https://github.com/ShinTingTsai/todo-sequelize/blob/master/images/Snapshot_login.png)
 
-![image]https://github.com/ShinTingTsai/todo-sequelize/blob/master/images/Snapshot_list.png
+![image](https://github.com/ShinTingTsai/todo-sequelize/blob/master/images/Snapshot_list.png)
 
-![image]https://github.com/ShinTingTsai/todo-sequelize/blob/master/images/Snapshot_detail.png
+![image](https://github.com/ShinTingTsai/todo-sequelize/blob/master/images/Snapshot_detail.png)
 
-![image]https://github.com/ShinTingTsai/todo-sequelize/blob/master/images/Snapshot_logout.png
+![image](https://github.com/ShinTingTsai/todo-sequelize/blob/master/images/Snapshot_logout.png)
 
 ## Features (功能)
 - CURD of a Todo 
